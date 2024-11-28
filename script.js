@@ -39,7 +39,7 @@ function showResult() {
 
     const resultDiv = document.createElement('div');
     resultDiv.className = 'alert alert-info';
-    resultDiv.innerHTML = `Você acertou ${score} pergunta(s). <br> ${resultMessage}´;
+    resultDiv.innerHTML = `Você acertou ${score} pergunta(s). <br> ${resultMessage}`;
     document.getElementById('result').appendChild(resultDiv);
 
     
@@ -61,5 +61,5 @@ function restartQuiz() {
     
     document.getElementById('question-1').style.display = 'none';
     document.getElementById('question-2').style.display = 'none';
-    document.getElementById('question-3').style.display = 'none';
+    document.getElementById('question-3').style.display = 'none';
 }
