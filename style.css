@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.question {
+    display: none;
+}
+
+.answer-btn {
+    margin-top: 10px;
+}
+
+#score {
+    margin-top: 20px;
+}
+
+.btn-outline-primary {
+    width: 100%;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
