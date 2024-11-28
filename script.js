@@ -39,7 +39,7 @@ function showResult() {
 
     const resultDiv = document.createElement('div');
     resultDiv.className = 'alert alert-info';
-    resultDiv.innerHTML = 'Você acertou ${score} pergunta(s). <br> ${resultMessage}';
+    resultDiv.innerHTML = `Você acertou ${score} pergunta(s). <br> ${resultMessage}´;
     document.getElementById('result').appendChild(resultDiv);
 
     
